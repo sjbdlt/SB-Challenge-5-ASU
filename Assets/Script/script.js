@@ -33,7 +33,7 @@ $(function () {
 
       var apthr = i;
       // get hour of day so we can compare against past, present and future apts.
-      var currhr = 10;//dayjs().hour();
+      var currhr = dayjs().hour();
       
      
       var dailydiv = $('<div class="row"   id=hour-' + i + '>');
